@@ -25,7 +25,7 @@
 </head>
 
 <body>
-    <!-- header start -->
+    <!-- header start --> 
     <header>
         <nav class="navbar navbar-expand-lg bg-light py-2 shadow">
             <div class="container-fluid">
@@ -88,7 +88,7 @@
                     <span class="text-dark">a</span>
                     <span class="text-info fw-bolder">i</span>
                     <span class="text-dark">n :</span>
-                    <span class="text-info text fw-bold" id="Domain">https://api-toys.cyclic.app</span>
+                    <span class="text-info text fw-bold" id="Domain">https://toys-project-chj8.onrender.com</span>
                     <button class="btn mx-2 copyBtn" id="domainbtn"><i class="bi bi-files"></i></button>
                 </h4>
 
@@ -104,13 +104,13 @@
                 <tbody>
                     <tr>
                         <td>GET</td>
-                        <td><a href="/users/myInfo">/users/myInfo</a></td>
+                        <td><a href="https://toys-project-chj8.onrender.com/users/myInfo">/users/myInfo</a></td>
                         <td class="text-center">none</td>
                         <td>Get your own info - by token.</td>
                     </tr>
                     <tr>
                         <td>GET</td>
-                        <td><a href="/users/usersList">/users/usersList</a></td>
+                        <td><a href="https://toys-project-chj8.onrender.com/users/usersList">/users/usersList</a></td>
                         <td class="text-center">none</td>
                         <td>Get list of all users - by token admin.</td>
                     </tr>
@@ -124,12 +124,12 @@ fullName: {
 firstName: Sara,
 lastName: Cohen
 },
-"email": "sara149635@gabay.com",
+"email": "sara149635@gmail.com",
 "password": "123456"
 } </pre>
                         </td>
                         <td>Add a new user to the data base ,<a class="text-decoration-none"
-                                href="https://github.com/MaorgD/ToysProject/blob/main/api/validation/userValidation.js">if
+                                href="https://github.com/SaraCohen1/Toys-Project/blob/master/api/models/userModel.js">if
                                 you want to see the template of valid user.</a></td>
                     </tr>
                     <tr>
@@ -138,13 +138,13 @@ lastName: Cohen
                         <td>
                             <pre>
 {
-"email": "sara149635@gabay.com",
+"email": "sara149635@gmail.com",
 "password": "123456"
 } </pre>
                         </td>
                         <td>User login, if the email and password are correct the server will respond with a token,<br>
                             <a class="text-decoration-none"
-                                href="https://github.com/MaorgD/ToysProject/blob/main/api/validation/userValidation.js">if
+                                href="https://github.com/SaraCohen1/Toys-Project/blob/master/api/models/userModel.js">if
                                 you want to see the template of valid user.</a>
                         </td>
                     </tr>
@@ -152,8 +152,7 @@ lastName: Cohen
                         <td>DELETE</td>
                         <td>/users/{idDel}</td>
                         <td></td>
-                        <td>Delete a user from the data base. <strong> Admin token can delete every user , and user can
-                                delete only himself.</strong>
+                        <td>Delete a user from the data base. <strong> Admin token can delete every user.</strong>
                         </td>
                     </tr>
                     <tr>
@@ -165,7 +164,7 @@ fullName: {
 firstName: Sara,
 lastName: Cohen
 },
-"email": "sara149635@gabay.com",
+"email": "sara149635@gmail.com",
 "password": "123456"
                              </pre>
                         </td>
@@ -222,7 +221,7 @@ lastName: Cohen
                     <span class="text-dark">a</span>
                     <span class="text-info fw-bolder">i</span>
                     <span class="text-dark">n :</span>
-                    <span class="text-info text fw-bold" id="Domain">https://api-toys.cyclic.app</span>
+                    <span class="text-info text fw-bold" id="Domain">https://toys-project-chj8.onrender.com</span>
                     <button class="btn mx-2 copyBtn" id="domainbtn2"><i class="bi bi-files"></i></button>
                 </h4>
                 <thead class="table-dark">
@@ -236,13 +235,13 @@ lastName: Cohen
                 <tbody>
                     <tr>
                         <td>GET</td>
-                        <td><a href="https://api-toys.cyclic.app//toys">/toys</a></td>
+                        <td><a href="https://toys-project-chj8.onrender.com/toys">/toys</a></td>
                         <td class="text-center">none</td>
                         <td>Get a list of all the toys, will present 10 results per page.</td>
                     </tr>
                     <tr>
                         <td>GET</td>
-                        <td><a href="https://api-toys.cyclic.app/toys/search?s=doll">/toys/search?s=doll</a></td>
+                        <td><a href="https://toys-project-chj8.onrender.com/toys/search?s=pazel">/toys/search?s=doll</a></td>
                         <td class="text-center">none</td>
                         <td>search for a toy by searching follwing name or info after the "s=", it will present 10
                             results per page.
@@ -251,14 +250,14 @@ lastName: Cohen
                     <tr>
                         <td>GET</td>
                         <td><a
-                                href="https://api-toys.cyclic.app/toys/prices?min=50&max=200">/toys/prices?min=50&max=200</a>
+                                href="https://toys-project-chj8.onrender.com/toys/prices?min=50&max=200">/toys/prices?min=50&max=200</a>
                         </td>
                         <td class="text-center">none</td>
                         <td>Get a list of the toys by min & max , it will present 10 results per page.</td>
                     </tr>
                     <tr>
                         <td>GET</td>
-                        <td><a href="https://api-toys.cyclic.app/toys/category/doll">/toys/category/:catName</a></td>
+                        <td><a href="https://toys-project-chj8.onrender.com/toys/category/game">/toys/category/:catName</a></td>
                         <td class="text-center">none</td>
                         <td>Get a list of all the toys in toys <strong>category</strong>, it will present 10 results per
                             page.</td>
@@ -282,7 +281,7 @@ lastName: Cohen
                         </td>
                         <td>Add a new toy to the data base, <strong>You need a token for this query ,</strong><br>
                             <a class="text-decoration-none"
-                                href="https://github.com/MaorgD/ToysProject/blob/main/api/validation/toyValidation.js">if
+                                href="https://github.com/SaraCohen1/Toys-Project/blob/master/api/models/toyModel.js">if
                                 you want to see the template of valid toy</a>
                         </td>
                     </tr>
@@ -331,7 +330,7 @@ lastName: Cohen
                 </a></li>
             <li class="ms-3"><a class="text-muted" href="https://www.linkedin.com/"><i class="bi bi-linkedin"></i>
                 </a></li>
-            <li class="ms-3"><a class="text-muted" href="https://github.com/MaorgD/ToysProject "><i
+            <li class="ms-3"><a class="text-muted" href="https://github.com/SaraCohen1/Toys-Project.git"><i
                         class="bi bi-github"></i>
                 </a></li>
         </ul>
